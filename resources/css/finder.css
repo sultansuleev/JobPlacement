@@ -1,3 +1,7 @@
+input:active{
+    border: none;
+}
+
 .m-con {
     color: #ffffff;
     justify-content: space-between;
@@ -39,7 +43,6 @@
 
 .r-m-con {
     background-color: rgba(0, 0, 0, 0.45);
-    margin-right: 10em;
     padding: 3em;
     width: 86em;
 }
@@ -50,6 +53,10 @@
 
 .r-m-con h3 {
     text-align: center;
+}
+
+.r-m-con form {
+    position: relative;
 }
 
 .r-m-con form > label{
@@ -71,5 +78,20 @@
 
 .r-m-con form button {
     width: max-content;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
 
+@media screen and (max-width: 900px) {
+    .r-m-con form button {
+        right: -36px;
+        bottom: -30px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .r-m-con form button {
+        bottom: -103px;
+    }
 }

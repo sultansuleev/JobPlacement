@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 @import "finder.css";
+@import "finderProfile.css";
+
+* {
+  font-family: Roboto, sans-serif;
+}
 
 html, body {
   max-width: 100%;
@@ -9,7 +14,6 @@ body {
   background: url(../images/background.jpg) no-repeat;
   background-size: cover;
   font-family: "Roboto", sans-serif;
-  overflow: hidden;
 }
 
 li{
@@ -127,3 +131,26 @@ li {
   border-right: 1px solid #FFFFFF;
   padding-right: 0.5em;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- -->
+
+
