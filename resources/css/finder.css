@@ -1,3 +1,7 @@
+input:active{
+    border: none;
+}
+
 .m-con {
     color: #ffffff;
     justify-content: space-between;
